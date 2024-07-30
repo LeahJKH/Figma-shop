@@ -5,12 +5,38 @@ body {
     background-color: #fff;
     color: #000;
 }
-
 header {
     background-color: #ffc700;
     width: 100%;
 }
-
 footer {
     background-color: #ffc700;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+button {
+    border: #000 2px solid;
+    border-radius: 30px;
+    background-color: transparent;
+    min-width: 75px;
+    font-size: .875rem;
+    font-weight: 700;
+    padding: 10px 20px 9px;
+    line-height: .9;
+    transform: background-color .3s linear, color .3s linear;
+}
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
 }
