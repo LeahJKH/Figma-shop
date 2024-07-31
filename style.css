@@ -9,8 +9,8 @@ body {
     background-color: #fff;
     color: #000;
     font-family: Roboto-Regular;
-    
 }
+
 header {
     background-color: #ffc700;
     width: 100%;
@@ -41,6 +41,11 @@ button {
 button:hover {
     background-color: #000;
     color: #fff;
+}
+
+.svg-cutout {
+    stroke: #000;
+    stroke-width: 8;
 }
 .row {
     display: flex;
