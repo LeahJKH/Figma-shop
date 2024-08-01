@@ -47,7 +47,11 @@ button:hover {
     color: #fff;
 }
 
-
+#H-Img-Cont {
+    height: 500px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
 #H-SS {
     appearance: none;
     background-color: transparent;
@@ -77,6 +81,8 @@ button:hover {
 .svg-cutout {
     stroke: #000;
     stroke-width: 8;
+    height: 400px;
+    width: 400px;
 }
 
 .box-col {
