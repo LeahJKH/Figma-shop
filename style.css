@@ -21,6 +21,7 @@ footer {
 nav {
     justify-content: space-between ;
     align-items: center;
+    padding: 22px 88px;
 }
 
 a {
