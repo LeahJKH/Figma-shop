@@ -47,11 +47,19 @@ button:hover {
     background-color: #000;
     color: #fff;
 }
+#container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
 
 #H-Img-Cont {
-    height: 500px;
-    overflow-x: auto;
-    overflow-y: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(10, 400px);
+    grid-gap: 20px; 
 }
 #H-SS {
     appearance: none;
